@@ -1,0 +1,254 @@
+2024-11-12 15:13:45,200 - WARNING -  * Debugger is active!
+2024-11-12 15:13:45,280 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:14:15,717 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:14:15,717 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:14:15,718 - INFO -  * Restarting with stat
+2024-11-12 15:14:16,460 - WARNING -  * Debugger is active!
+2024-11-12 15:14:16,463 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:14:20,190 - INFO - 127.0.0.1 - - [12/Nov/2024 15:14:20] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-12 15:14:20,907 - INFO - 127.0.0.1 - - [12/Nov/2024 15:14:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-12 15:14:39,336 - INFO - 127.0.0.1 - - [12/Nov/2024 15:14:39] "OPTIONS /download HTTP/1.1" 200 -
+2024-11-12 15:14:39,583 - INFO - D�but du t�l�chargement de la vid�o : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:14:44,963 - INFO - 127.0.0.1 - - [12/Nov/2024 15:14:44] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:37:45,168 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:37:45,246 - INFO -  * Restarting with stat
+2024-11-12 15:37:46,103 - WARNING -  * Debugger is active!
+2024-11-12 15:37:46,106 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:38:00,388 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\server.py', reloading
+2024-11-12 15:38:00,439 - INFO -  * Restarting with stat
+2024-11-12 15:38:01,154 - WARNING -  * Debugger is active!
+2024-11-12 15:38:01,157 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:38:27,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:38:27,064 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:38:27,065 - INFO -  * Restarting with stat
+2024-11-12 15:38:27,768 - WARNING -  * Debugger is active!
+2024-11-12 15:38:27,770 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:38:34,303 - INFO - 127.0.0.1 - - [12/Nov/2024 15:38:34] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-12 15:38:35,004 - INFO - 127.0.0.1 - - [12/Nov/2024 15:38:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-12 15:38:56,087 - INFO - D�but du t�l�chargement de la vid�o : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:38:59,383 - INFO - 127.0.0.1 - - [12/Nov/2024 15:38:59] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:40:12,821 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:40:12,898 - INFO -  * Restarting with stat
+2024-11-12 15:40:13,643 - WARNING -  * Debugger is active!
+2024-11-12 15:40:13,645 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:41:13,061 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:41:13,112 - INFO -  * Restarting with stat
+2024-11-12 15:41:13,818 - WARNING -  * Debugger is active!
+2024-11-12 15:41:13,820 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:41:28,183 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:41:28,241 - INFO -  * Restarting with stat
+2024-11-12 15:41:28,962 - WARNING -  * Debugger is active!
+2024-11-12 15:41:28,965 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:41:43,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:41:43,054 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:41:43,056 - INFO -  * Restarting with stat
+2024-11-12 15:41:43,736 - WARNING -  * Debugger is active!
+2024-11-12 15:41:43,739 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:42:18,027 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:42:21,035 - INFO - Vidéo téléchargée avec succès : downloads\Blankulk ⧸ Frankul 1.0 - Les Kassos #116.mp4
+2024-11-12 15:42:21,067 - INFO - 127.0.0.1 - - [12/Nov/2024 15:42:21] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:42:21,079 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\abouchaud2023\PycharmProjects\extensionChrome\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\abouchaud2023\PycharmProjects\extensionChrome\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+    ~~~~~^^^^^^
+  File "C:\Users\abouchaud2023\PycharmProjects\extensionChrome\.venv\Lib\site-packages\werkzeug\serving.py", line 274, in write
+    self.send_header(key, value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\abouchaud2023\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 526, in send_header
+    ("%s: %s\r\n" % (keyword, value)).encode('latin-1', 'strict'))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u29f8' in position 52: ordinal not in range(256)
+2024-11-12 15:43:08,911 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:43:09,016 - INFO -  * Restarting with stat
+2024-11-12 15:43:09,994 - WARNING -  * Debugger is active!
+2024-11-12 15:43:09,996 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:43:28,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:43:28,417 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:43:28,418 - INFO -  * Restarting with stat
+2024-11-12 15:43:29,106 - WARNING -  * Debugger is active!
+2024-11-12 15:43:29,109 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:44:24,390 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:44:27,584 - INFO - Vidéo téléchargée avec succès : downloads\Blankulk ⧸ Frankul 1.0 - Les Kassos #116.mp4
+2024-11-12 15:44:27,615 - INFO - 127.0.0.1 - - [12/Nov/2024 15:44:27] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:46:42,903 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:46:42,971 - INFO -  * Restarting with stat
+2024-11-12 15:46:43,859 - WARNING -  * Debugger is active!
+2024-11-12 15:46:43,862 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:47:00,274 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:47:03,525 - INFO - Vidéo téléchargée avec succès : downloads\Blankulk ⧸ Frankul 1.0 - Les Kassos #116.mp4
+2024-11-12 15:47:03,525 - INFO - Nom du fichier sanitizé : Blankulk  Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 15:47:03,556 - INFO - 127.0.0.1 - - [12/Nov/2024 15:47:03] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:47:11,559 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:47:11,559 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:47:11,560 - INFO -  * Restarting with stat
+2024-11-12 15:47:12,257 - WARNING -  * Debugger is active!
+2024-11-12 15:47:12,260 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:47:22,489 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:47:25,810 - INFO - Vidéo téléchargée avec succès : downloads\Blankulk ⧸ Frankul 1.0 - Les Kassos #116.mp4
+2024-11-12 15:47:25,811 - INFO - Nom du fichier sanitizé : Blankulk  Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 15:47:25,843 - INFO - 127.0.0.1 - - [12/Nov/2024 15:47:25] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:49:30,045 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:49:30,121 - INFO -  * Restarting with stat
+2024-11-12 15:49:31,213 - WARNING -  * Debugger is active!
+2024-11-12 15:49:31,217 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:50:01,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:50:01,785 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:50:01,786 - INFO -  * Restarting with stat
+2024-11-12 15:50:02,510 - WARNING -  * Debugger is active!
+2024-11-12 15:50:02,512 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:51:05,268 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:51:08,650 - INFO - Vidéo téléchargée avec succès : downloads\Blankulk ⧸ Frankul 1.0 - Les Kassos #116.mp4
+2024-11-12 15:51:08,650 - INFO - Nom du fichier sanitizé : Blankulk  Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 15:51:08,651 - INFO - Fichier renommé en : downloads\Blankulk  Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 15:51:08,652 - INFO - 127.0.0.1 - - [12/Nov/2024 15:51:08] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:51:10,285 - INFO - 127.0.0.1 - - [12/Nov/2024 15:51:10] "GET /files/Blankulk%20%20Frankul%201.0%20-%20Les%20Kassos%20_116.mp4 HTTP/1.1" 200 -
+2024-11-12 15:53:57,336 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:53:57,398 - INFO -  * Restarting with stat
+2024-11-12 15:53:58,201 - WARNING -  * Debugger is active!
+2024-11-12 15:53:58,204 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:54:49,299 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:54:49,406 - ERROR - Erreur lors du téléchargement : FFmpegVideoConvertorPP.__init__() got an unexpected keyword argument 'preferedcodec'. Did you mean 'preferedformat'?
+2024-11-12 15:54:49,407 - INFO - 127.0.0.1 - - [12/Nov/2024 15:54:49] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+2024-11-12 15:56:22,546 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 15:56:22,612 - INFO -  * Restarting with stat
+2024-11-12 15:56:23,705 - WARNING -  * Debugger is active!
+2024-11-12 15:56:23,710 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:56:29,852 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 15:56:29,908 - INFO -  * Restarting with stat
+2024-11-12 15:56:30,664 - WARNING -  * Debugger is active!
+2024-11-12 15:56:30,666 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:57:04,217 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:57:04,218 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:57:04,219 - INFO -  * Restarting with stat
+2024-11-12 15:57:04,933 - WARNING -  * Debugger is active!
+2024-11-12 15:57:04,936 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 15:59:09,903 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 15:59:16,152 - INFO - Vidéo téléchargée : downloads\temp_video.mp4
+2024-11-12 15:59:19,514 - INFO - Audio téléchargé : downloads\temp_audio.mp3
+2024-11-12 15:59:23,640 - INFO - Vidéo finale créée : downloads\temp.mp4
+2024-11-12 15:59:23,643 - INFO - Vidéo finale téléchargée : downloads\temp.mp4
+2024-11-12 15:59:23,644 - INFO - Nom du fichier sanitizé : temp.mp4
+2024-11-12 15:59:23,645 - INFO - 127.0.0.1 - - [12/Nov/2024 15:59:23] "POST /download HTTP/1.1" 200 -
+2024-11-12 15:59:26,290 - INFO - 127.0.0.1 - - [12/Nov/2024 15:59:26] "GET /files/temp.mp4 HTTP/1.1" 200 -
+2024-11-12 16:01:56,910 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:01:56,979 - INFO -  * Restarting with stat
+2024-11-12 16:06:13,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:06:13,506 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:06:13,507 - INFO -  * Restarting with stat
+2024-11-12 16:06:14,211 - WARNING -  * Debugger is active!
+2024-11-12 16:06:14,214 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:07:04,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:07:04,043 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:07:04,047 - INFO -  * Restarting with stat
+2024-11-12 16:07:04,792 - WARNING -  * Debugger is active!
+2024-11-12 16:07:04,795 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:07:15,925 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:07:15,926 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:07:15,926 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:07:15,926 - ERROR - Erreur lors du téléchargement : download_video() takes 2 positional arguments but 3 were given
+2024-11-12 16:07:15,927 - INFO - 127.0.0.1 - - [12/Nov/2024 16:07:15] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+2024-11-12 16:08:01,856 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:08:01,946 - INFO -  * Restarting with stat
+2024-11-12 16:09:10,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:09:10,045 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:09:10,050 - INFO -  * Restarting with stat
+2024-11-12 16:09:10,905 - WARNING -  * Debugger is active!
+2024-11-12 16:09:10,909 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:09:20,042 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:09:20,042 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:09:20,043 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:09:25,682 - INFO - Vidéo téléchargée : downloads\temp_video.mp4
+2024-11-12 16:09:29,406 - INFO - Audio téléchargé : downloads\temp_audio.mp3
+2024-11-12 16:09:37,394 - INFO - Vidéo finale créée : downloads\temp.mp4
+2024-11-12 16:09:37,398 - INFO - Vidéo finale téléchargée : downloads\temp.mp4
+2024-11-12 16:09:37,398 - INFO - Fichier renommé en : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:09:37,399 - INFO - 127.0.0.1 - - [12/Nov/2024 16:09:37] "POST /download HTTP/1.1" 200 -
+2024-11-12 16:09:48,464 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:09:48,464 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:09:48,464 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:09:53,881 - INFO - Vidéo téléchargée : downloads\temp_video.mp4
+2024-11-12 16:09:57,433 - INFO - Audio téléchargé : downloads\temp_audio.mp3
+2024-11-12 16:10:01,555 - INFO - Vidéo finale créée : downloads\temp.mp4
+2024-11-12 16:10:01,558 - INFO - Vidéo finale téléchargée : downloads\temp.mp4
+2024-11-12 16:10:01,559 - ERROR - Erreur lors du téléchargement : [WinError 183] Impossible de créer un fichier déjà existant: 'downloads\\temp.mp4' -> 'downloads\\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4'
+2024-11-12 16:10:01,559 - INFO - 127.0.0.1 - - [12/Nov/2024 16:10:01] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+2024-11-12 16:10:20,656 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:10:20,656 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:10:20,657 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:10:26,282 - INFO - Vidéo téléchargée : downloads\temp_video.mp4
+2024-11-12 16:10:29,806 - INFO - Audio téléchargé : downloads\temp_audio.mp3
+2024-11-12 16:10:34,030 - INFO - Vidéo finale créée : downloads\temp.mp4
+2024-11-12 16:10:34,033 - INFO - Vidéo finale téléchargée : downloads\temp.mp4
+2024-11-12 16:10:34,034 - INFO - Fichier renommé en : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:10:34,035 - INFO - 127.0.0.1 - - [12/Nov/2024 16:10:34] "POST /download HTTP/1.1" 200 -
+2024-11-12 16:10:37,864 - INFO - 127.0.0.1 - - [12/Nov/2024 16:10:37] "GET /files/Blankulk%20_%20Frankul%201.0%20-%20Les%20Kassos%20_116.mp4 HTTP/1.1" 200 -
+2024-11-12 16:11:59,943 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:12:00,032 - INFO -  * Restarting with stat
+2024-11-12 16:12:14,639 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:12:14,639 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:12:14,641 - INFO -  * Restarting with stat
+2024-11-12 16:12:15,401 - WARNING -  * Debugger is active!
+2024-11-12 16:12:15,404 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:12:38,929 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:12:38,929 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:12:38,930 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:12:44,862 - INFO - Vidéo finale créée : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:12:44,862 - INFO - Vidéo finale téléchargée : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:12:44,863 - INFO - 127.0.0.1 - - [12/Nov/2024 16:12:44] "POST /download HTTP/1.1" 200 -
+2024-11-12 16:12:46,810 - INFO - 127.0.0.1 - - [12/Nov/2024 16:12:46] "GET /files/Blankulk%20_%20Frankul%201.0%20-%20Les%20Kassos%20_116.mp4 HTTP/1.1" 200 -
+2024-11-12 16:17:26,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:17:26,937 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:17:26,943 - INFO -  * Restarting with stat
+2024-11-12 16:17:27,709 - WARNING -  * Debugger is active!
+2024-11-12 16:17:27,712 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:17:52,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:17:52,403 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:17:52,404 - INFO -  * Restarting with stat
+2024-11-12 16:17:53,145 - WARNING -  * Debugger is active!
+2024-11-12 16:17:53,148 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:18:10,528 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:18:10,582 - INFO -  * Restarting with stat
+2024-11-12 16:18:11,333 - WARNING -  * Debugger is active!
+2024-11-12 16:18:11,336 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:19:17,298 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 16:19:17,346 - INFO -  * Restarting with stat
+2024-11-12 16:21:14,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 16:21:14,985 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 16:21:14,987 - INFO -  * Restarting with stat
+2024-11-12 16:21:15,743 - WARNING -  * Debugger is active!
+2024-11-12 16:21:15,746 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:22:59,328 - INFO - Titre de la vidéo extrait : Blankulk / Frankul 1.0 - Les Kassos #116
+2024-11-12 16:22:59,329 - INFO - Titre sanitizé : Blankulk _ Frankul 1.0 - Les Kassos _116
+2024-11-12 16:22:59,329 - INFO - Début du téléchargement de la vidéo : https://www.youtube.com/watch?v=MrTqzaOgTGg
+2024-11-12 16:23:04,712 - INFO - Vidéo finale créée : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:23:04,713 - INFO - Vidéo finale téléchargée : downloads\Blankulk _ Frankul 1.0 - Les Kassos _116.mp4
+2024-11-12 16:23:04,713 - INFO - 127.0.0.1 - - [12/Nov/2024 16:23:04] "POST /download HTTP/1.1" 200 -
+2024-11-12 16:23:06,146 - INFO - 127.0.0.1 - - [12/Nov/2024 16:23:06] "GET /files/Blankulk%20_%20Frankul%201.0%20-%20Les%20Kassos%20_116.mp4 HTTP/1.1" 200 -
+2024-11-12 16:23:45,138 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:23:45,204 - INFO -  * Restarting with stat
+2024-11-12 16:23:46,345 - WARNING -  * Debugger is active!
+2024-11-12 16:23:46,348 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:24:02,743 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\app.py', reloading
+2024-11-12 16:24:02,819 - INFO -  * Restarting with stat
+2024-11-12 16:24:03,568 - WARNING -  * Debugger is active!
+2024-11-12 16:24:03,571 - INFO -  * Debugger PIN: 309-236-549
+2024-11-12 16:24:40,532 - INFO -  * Detected change in 'C:\\Users\\abouchaud2023\\PycharmProjects\\extensionChrome\\downloader.py', reloading
+2024-11-12 16:24:40,615 - INFO -  * Restarting with stat
