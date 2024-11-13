@@ -1,10 +1,8 @@
 # app.py
-from flask import Flask, request, jsonify, send_file, url_for, redirect
+from flask import Flask, request, jsonify, send_file, url_for
 import os
 import logging
-import subprocess
-import platform
-from downloader import download_video
+from downloader import download_video, get_video_info
 
 app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -38,9 +36,19 @@ def download_video_route():
     # Supprimer les vidéos précédentes
     clean_download_directory()
 
+    # Récupérer les informations de la vidéo
+    try:
+        video_info = get_video_info(url)
+        title = video_info.get('title', 'video')
+        logging.info(f"Téléchargement de la vidéo : {title}")
+    except Exception as e:
+        return jsonify({"error": f"Erreur lors de la récupération des informations de la vidéo : {e}"}), 500
+
     # Télécharger la nouvelle vidéo
     try:
-        filename = "video"  # nom de fichier temporaire, peut être remplacé par un titre extrait
+        filename = title  # Utiliser le titre de la vidéo comme nom de fichier
+        # Nettoyer le nom de fichier pour éviter les caractères illégaux
+        filename = "".join([c for c in filename if c.isalpha() or c.isdigit() or c in (' ', '.', '_', '-')]).rstrip()
         output_path = os.path.join(DOWNLOAD_DIR, filename)
         final_output = download_video(url, output_path)
 
@@ -49,16 +57,13 @@ def download_video_route():
         return jsonify({
             "message": "Vidéo téléchargée avec succès.",
             "download_url": download_url,
-            "filename": os.path.basename(final_output)
+            "filename": os.path.basename(final_output),
+            "title": title
         }), 200
 
     except Exception as e:
+        logging.error(f"Erreur lors du téléchargement de la vidéo : {e}")
         return jsonify({"error": str(e)}), 500
-
-@app.route('/open_in_vlc')
-def open_in_vlc_route():
-    # (Votre code pour ouvrir dans VLC)
-    pass
 
 @app.route('/files/<path:filename>', methods=['GET'])
 def serve_file(filename):
@@ -68,5 +73,19 @@ def serve_file(filename):
     else:
         return jsonify({"error": "Fichier non trouvé."}), 404
 
+@app.route('/open_in_vlc', methods=['GET'])
+def open_in_vlc_route():
+    filename = request.args.get('file')
+    if not filename:
+        return jsonify({"error": "Nom de fichier manquant."}), 400
+
+    file_path = os.path.join(DOWNLOAD_DIR, filename)
+    if not os.path.exists(file_path):
+        return jsonify({"error": "Fichier non trouvé."}), 404
+
+    # Retourner une URL de téléchargement
+    download_url = url_for('serve_file', filename=filename, _external=True)
+    return jsonify({"download_url": download_url}), 200
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
