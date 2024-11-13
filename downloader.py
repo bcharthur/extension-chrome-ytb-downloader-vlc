@@ -4,13 +4,9 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-
 def get_video_info(url):
     """
-    Récupère les informations de la vidéo YouTube, y compris les codecs vidéo et audio.
-
-    :param url: URL de la vidéo YouTube
-    :return: Dictionnaire contenant le titre, le codec vidéo et audio, et le format de la vidéo.
+    Récupère les informations de la vidéo YouTube, y compris le titre.
     """
     try:
         ydl_opts = {
@@ -20,21 +16,14 @@ def get_video_info(url):
         }
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(url, download=False)
-            video_codec = info_dict.get('vcodec', 'unknown')
-            audio_codec = info_dict.get('acodec', 'unknown')
-            format = info_dict.get('ext', 'unknown')
             title = info_dict.get('title', 'video')
 
         return {
             "title": title,
-            "video_codec": video_codec,
-            "audio_codec": audio_codec,
-            "format": format,
         }
     except Exception as e:
         logging.error(f"Erreur lors de la récupération des informations de la vidéo : {e}")
         raise
-
 
 def download_video(url, output_path):
     """
@@ -53,10 +42,15 @@ def download_video(url, output_path):
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([url])
+            result = ydl.download([url])
 
-        logging.info(f'Vidéo téléchargée avec succès : {output_path}')
-        return output_path
+        # Obtenir l'extension du fichier téléchargé
+        info_dict = ydl.extract_info(url, download=False)
+        extension = info_dict.get('ext', 'mp4')
+
+        final_output = f"{output_path}.{extension}"
+        logging.info(f'Vidéo téléchargée avec succès : {final_output}')
+        return final_output
     except Exception as e:
         logging.error(f"Erreur lors du téléchargement de la vidéo : {e}")
         raise
