@@ -1,26 +1,33 @@
 // popup.js
 let filename = '';
 
+const downloadButton = document.getElementById('downloadButton');
+const openInVLC = document.getElementById('openInVLC');
+const status = document.getElementById('status');
+const vlcInfo = document.getElementById('vlcInfo');
+const videoTitleElement = document.getElementById('videoTitle');
+const spinner = document.getElementById('spinner');
+
 document.getElementById('closeButton').addEventListener('click', () => {
     window.close();
 });
 
-document.getElementById('downloadButton').addEventListener('click', () => {
-    const status = document.getElementById('status');
-    const openInVLC = document.getElementById('openInVLC');
-    const vlcInfo = document.getElementById('vlcInfo');
-    const videoTitleElement = document.getElementById('videoTitle');
-
-    status.textContent = 'Récupération de l\'URL...';
+downloadButton.addEventListener('click', () => {
+    status.textContent = '';
     openInVLC.style.display = 'none';
     vlcInfo.style.display = 'none';
     videoTitleElement.textContent = '';
+
+    spinner.style.display = 'inline-block'; // Afficher le spinner
+    downloadButton.disabled = true; // Désactiver le bouton
 
     // Utiliser chrome.tabs pour récupérer l'URL de l'onglet actif
     chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
         if (tabs.length === 0) {
             status.textContent = 'Impossible de récupérer l\'URL de l\'onglet actif.';
             console.error('Aucun onglet actif trouvé.');
+            spinner.style.display = 'none'; // Cacher le spinner
+            downloadButton.disabled = false; // Réactiver le bouton
             return;
         }
 
@@ -28,14 +35,16 @@ document.getElementById('downloadButton').addEventListener('click', () => {
         const videoUrl = tab.url;
         console.log('URL de l\'onglet actif :', videoUrl);
 
-        // Vérifiez que l'URL est une URL YouTube
+        // Vérifier que l'URL est une URL YouTube
         if (!videoUrl.includes('youtube.com/watch') && !videoUrl.includes('youtu.be')) {
             status.textContent = 'Veuillez ouvrir une vidéo YouTube.';
             console.log('URL non reconnue comme une vidéo YouTube.');
+            spinner.style.display = 'none'; // Cacher le spinner
+            downloadButton.disabled = false; // Réactiver le bouton
             return;
         }
 
-        status.textContent = 'Tentative de connexion au serveur...';
+        status.textContent = 'Connexion au serveur...';
         console.log('Tentative de connexion au serveur...');
 
         const data = {
@@ -56,11 +65,12 @@ document.getElementById('downloadButton').addEventListener('click', () => {
                 const errorData = await response.json();
                 status.textContent = `Erreur : ${errorData.error}`;
                 console.error(`Erreur du serveur : ${errorData.error}`);
+                spinner.style.display = 'none'; // Cacher le spinner
+                downloadButton.disabled = false; // Réactiver le bouton
                 return;
             }
 
             console.log('Connecté au serveur.');
-            status.textContent = 'Connecté au serveur. Téléchargement en cours...';
 
             const result = await response.json();
             filename = result.filename; // Stocker le nom du fichier
@@ -78,24 +88,31 @@ document.getElementById('downloadButton').addEventListener('click', () => {
             status.textContent = `Vidéo "${result.title}" téléchargée avec succès.`;
             console.log(`Vidéo "${result.title}" téléchargée avec succès.`);
 
-            openInVLC.style.display = 'block';
+            // Cacher le bouton bleu et afficher le bouton vert
+            downloadButton.style.display = 'none';
+            openInVLC.style.display = 'inline-block';
             vlcInfo.style.display = 'block';
 
         } catch (error) {
             console.error('Erreur lors de la requête:', error);
             status.textContent = 'Une erreur est survenue lors de la connexion au serveur.';
+            downloadButton.disabled = false; // Réactiver le bouton
+        } finally {
+            spinner.style.display = 'none'; // Cacher le spinner
         }
     });
 });
 
-document.getElementById('openInVLC').addEventListener('click', async () => {
-    const status = document.getElementById('status');
+openInVLC.addEventListener('click', async () => {
+    status.textContent = 'Téléchargement de la vidéo...';
+    spinner.style.display = 'inline-block'; // Afficher le spinner
 
     try {
         const response = await fetch(`http://br0nson.ddns.net:5000/open_in_vlc?file=${encodeURIComponent(filename)}`);
         if (!response.ok) {
             const errorData = await response.json();
             status.textContent = `Erreur : ${errorData.error}`;
+            spinner.style.display = 'none'; // Cacher le spinner
             return;
         }
 
@@ -114,10 +131,12 @@ document.getElementById('openInVLC').addEventListener('click', async () => {
                 status.textContent = 'Vidéo téléchargée avec succès.';
                 console.log('Téléchargement démarré avec l\'ID :', downloadId);
             }
+            spinner.style.display = 'none'; // Cacher le spinner
         });
 
     } catch (error) {
         console.error('Erreur lors de la requête:', error);
         status.textContent = 'Une erreur est survenue lors du téléchargement.';
+        spinner.style.display = 'none'; // Cacher le spinner
     }
 });
