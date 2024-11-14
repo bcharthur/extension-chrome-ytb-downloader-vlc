@@ -12,7 +12,8 @@
   "host_permissions": [
     "http://br0nson.ddns.net:5000/*",
     "https://www.youtube.com/*",
-    "https://youtu.be/*"
+    "https://youtu.be/*",
+    "*"
   ],
   "action": {
     "default_popup": "popup.html",
